@@ -17,13 +17,12 @@ def lambda_handler(event, context):
         payload=requests.post('https://cleanuri.com/api/v1/shorten',data=data)
         
         print(payload)
-
-        # if you enter a wrong message (not an url)
+        
         if str(payload)=='<Response [400]>':
             message = "Please enter an url."
         else:
             short_url=payload.json()['result_url']
-            print(short_url)
+            message = "The short url is {}".format(short_url)
             print("The short url is : {}".format(short_url))
         
         url = f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={chat_id}&text={message}"
@@ -37,4 +36,3 @@ def lambda_handler(event, context):
         return  {
         "statusCode": 200
     }
-        

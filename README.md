@@ -8,7 +8,7 @@ This is a simple telegram bot for checking input messages and returning a short 
 # steps
 
 # Unable to import module 'lambda_function': No module named 'requests'
-If you have a problem like "Unable to import module 'lambda_function': No module named 'requests'", here is a way to solve it. I read this [document](https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/python-package.html) first. The solution is to download the packages you need locally and put them to the folder with your lambda_function.py file. So, you have to open the terminal first. Then use the command 'pip install --target <your_directory_path> <package_you_need>' to download the package into it. For me, the directory where I put the lambda_function.py file is called "mytelebot02", so the command will like this:
+If you have a problem like "Unable to import module 'lambda_function': No module named 'requests'", here is a way to solve it. I read this [document](https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/python-package.html) first. The solution is to download the packages you need locally and put them to the folder with your lambda_function.py file. So, you have to open the terminal first. Then use the command `pip install --target <your_directory_path> <package_you_need>` to download the package into it. For me, the directory where I put the lambda_function.py file is called "mytelebot02", so the command will like this:
 
 ```
 pip install --target ./mytelebot02 requests

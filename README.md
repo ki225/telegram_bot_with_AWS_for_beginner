@@ -9,7 +9,7 @@ This is a simple telegram bot for checking input messages and returning a short 
 - Lambda Function : Lambda is one function that is executed by queries from triggers.
 - API Gateway : API Gateway acts as a mediator between client applications and backend services(Lambda function). Others can trigger it with the API Gateway endpoint.
 
-<img width="674" alt="截圖 2024-05-05 上午10 41 55" src="https://github.com/ki225/telegram_bot_with_AWS_for_beginner/assets/123147937/0fba9b12-dd0b-4c38-95bd-5c4c1aef6613">
+<img width="705" alt="截圖 2024-05-05 上午10 51 36" src="https://github.com/ki225/telegram_bot_with_AWS_for_beginner/assets/123147937/cd8b4f90-3b50-4215-9840-6595c6e8f628">
 
 
 # steps

@@ -17,13 +17,13 @@ Keep your token secure and store it safely, it can be used by anyone to control 
 
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 ```
-3. Create a lambda function
-4. put your code into `lambda_handler` function
+2. Create a lambda function
+3. put your code into `lambda_handler` function
    This step let your bot react when you send some messeges(sending msg is an event).
-5. Create an API Gateway for your function
+4. Create an API Gateway for your function
    API Gateway acts as a mediator between client applications and backend services(Lambda function). Others can trigger it with the API Gateway endpoint.
 
-6. Set Webhook
+5. Set Webhook
 Webhook is an HTTP-based callback function that can realize event-driven lightweight communication between two application programming interfaces (APIs). I use Postman for sending HTTP POST. Just send your API Gateway endpoint as an url to your Telebot.
 ```
 https://api.telegram.org/bot{HTTP Token}/setWebhook

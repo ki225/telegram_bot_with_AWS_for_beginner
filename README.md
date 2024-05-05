@@ -24,4 +24,4 @@ idna					urllib3-2.2.1.dist-info
 ```
 Zipping this directory, then upload to the aws lambda function.
 
-<img width="1552" alt="截圖 2024-05-03 下午2 15 05" src="https://github.com/ki225/telegram_bot_with_AWS_for_beginner/assets/123147937/559276a0-b2e3-4d4e-9140-f5d8ab60b306">
+<img width="1552" alt="IMG_1304" src="https://github.com/ki225/telegram_bot_with_AWS_for_beginner/assets/123147937/eaaaadbb-bd03-42db-9281-94f3353b75a3">
